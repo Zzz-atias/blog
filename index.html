@@ -8,7 +8,7 @@
 <body>
     <div class="top_header">
         <h1>Z.Lab</h1>
-        <p>ぜーたさんの実験室。</p>
+        <p class="flash">ぜーたさんの実験室。</p>
     </div>
     <div class="top_contents">
         <div class="contents_card white">
@@ -19,8 +19,14 @@
     </div>
 </body>
 <style>
-    body{
-        background:url(https://drive.google.com/file/d/10NKRZWsZuz_-elGHQrwK3jEF87rvmcPT/view?usp=sharing) norepeat;
-    }
+.flash{
+  animation: flash 1s ease infinite alternate;
+}
+
+@keyframes flash {
+  50% {
+    opacity: 0;
+  }
+}
 </style>
 </html>
