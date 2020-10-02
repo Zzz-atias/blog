@@ -3,62 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ZZZ-Lab</title>
+  <title>製品登録画面_demo</title>
   <!-- UIkit CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css">
+
   <!-- UIkit JS -->
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <header id="header" class="">
-    <div class="uk-position-relative">
+  <nav class="uk-navbar">
+    <ul>
+      <li><a href="" title="ユーザー情報編集" class="uk-button">ユーザー情報編集</a></li>
+      <li><a href="" title="log aut" class="uk-button">log out</a></li>
+    </ul>
+  </nav>
 
-    <nav class="uk-navbar-container" uk-navbar="dropbar: true">
-        <div class="uk-navbar-left">
-            <ul class="uk-navbar-nav">
-                <li>
-                    <a href="#">Menu</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active"><a href="./page_01.html">No contents...</a></li>
-                            <li><a href="#">No Item</a></li>
-                            <li class="uk-nav-header">Header</li>
-                            <li><a href="#">No Item</a></li>
-                            <li><a href="#">No Item</a></li>
-                            <li class="uk-nav-divider"></li>
-                            <li><a href="#">No Item</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <template class="uk-card-large">
+    <button class="uk-button-large">製品登録</button>
 
-    <div class="uk-navbar-dropbar"></div>
+    <h3 class="uk-h3">製品詳細を見る</h3>
+    <input type="text" class="uk-input">
 
-    </div>
-  </header><!-- /header -->
-
-  <div class="uk-section uk-section-primary uk-light">
-    <div class="uk-container">
-
-        <h3>ZZZ-Lab</h3>
-
-        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
-            <div>
-                <p>まだまだ工事中です...</p>
-            </div>
-            <div>
-                <p>Samle Text...</p>
-            </div>
-            <div>
-                <p>Sample Text...</p>
-            </div>
-        </div>
-
-    </div>
-</div>
-
+    <button class="uk-button-secondary">見る</button>
+  </template>
 </body>
 </html>
