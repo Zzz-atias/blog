@@ -15,74 +15,20 @@
 </head>
 <body>
 
-  <div class="uk-position-relative">
+<div class="uk-position-relative">
 
     <nav class="uk-navbar-container" uk-navbar="dropbar: true">
-
-        <div class="uk-navbar-left">
-
-            <ul class="uk-navbar-nav">
-                <li>
-                    <a href="#">Item</a>
-                    <div class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active"><a href="#">Active</a></li>
-                            <li><a href="#">Item</a></li>
-                            <li class="uk-nav-header">Header</li>
-                            <li><a href="#">Item</a></li>
-                            <li><a href="#">Item</a></li>
-                            <li class="uk-nav-divider"></li>
-                            <li><a href="#">Item</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">Item</a>
-                    <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                        <div class="uk-navbar-dropdown-grid uk-child-width-1-2" uk-grid>
-                            <div>
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="#">Active</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li class="uk-nav-header">Header</li>
-                                    <li><a href="#">Item</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#">Item</a></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                    <li class="uk-active"><a href="#">Active</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li class="uk-nav-header">Header</li>
-                                    <li><a href="#">Item</a></li>
-                                    <li><a href="#">Item</a></li>
-                                    <li class="uk-nav-divider"></li>
-                                    <li><a href="#">Item</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-
-        </div>
-
         <div class="uk-navbar-right">
-
             <ul class="uk-navbar-nav">
                 <li>
-                    <a href="#">Parent</a>
+                    <a href="#">ユーザー情報編集</a>
+                    <a href="#">Log Out</a>
                     <div class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li class="uk-active"><a href="#">ドロップダウンも出来ますよ</a></li>
                             <li><a href="#">ユーザー情報編集</a></li>
-                            <li class="uk-nav-header">Header</li>
+                            <li class="uk-nav-header">ログイン操作</li>
                             <li><a href="#">Log Out</a></li>
-                            <li><a href="#">Item</a></li>
-                            <li class="uk-nav-divider"></li>
-                            <li><a href="#">Item</a></li>
                         </ul>
                     </div>
                 </li>
@@ -95,13 +41,15 @@
 
 </div>
 
-  <div class="uk-card-large">
-    <button class="uk-button-large">製品登録</button>
+<div>
+    <div class="uk-card-large" style="max-width: 600px; margin: auto;">
+      <button class="uk-button-large">製品登録</button>
 
-    <h3 class="uk-h3">製品詳細を見る</h3>
-    <input type="text" class="uk-input">
+        <h3 class="uk-h3">製品詳細を見る</h3>
+        <input type="text-area" class="uk-input">
 
-    <button class="uk-button-secondary">見る</button>
-  </div>
+      <button class="uk-button-primary uk-button-default">見る</button>
+    </div>
+</div>
 </body>
 </html>
